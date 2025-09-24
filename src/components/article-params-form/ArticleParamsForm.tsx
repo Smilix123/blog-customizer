@@ -71,8 +71,10 @@ export const ArticleParamsForm = () => {
 						onClose={() => {}}
 						title='Ширина контейнера'
 					/>
-					<Button title='Сбросить' htmlType='reset' type='clear' />
-					<Button title='Применить' htmlType='submit' type='apply' />
+					<div className={styles.bottomContainer}>
+						<Button title='Сбросить' htmlType='reset' type='clear' />
+						<Button title='Применить' htmlType='submit' type='apply' />
+					</div>
 				</form>
 			</aside>
 		</>
